@@ -1,0 +1,21 @@
+:root{
+--main-background: linear-gradient(43deg, #2F304E 0%, #373859 50%, #2F304E 150%);
+--main-purple: rgb(92, 77, 188);
+--old-white:rgb(214, 213, 213);
+--old-white-ligth:rgb(231, 231, 231);
+--placeholder:rgb(107, 141, 209);
+--spotify-green:  #1ED05D;
+}
+
+body,#root {
+  width: 100vw;
+  height: 100vh;
+  box-sizing:border-box;
+  background-color: var(--main-purple);
+  background-image: var(--main-background);
+  }
+
+body,#root,h1,h2,h3,p{
+  margin:0;
+  padding:0;
+}
